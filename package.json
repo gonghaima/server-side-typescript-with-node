@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gonghaima/server-side-typescript-with-node/issues"
   },
-  "homepage": "https://github.com/gonghaima/server-side-typescript-with-node#readme"
+  "homepage": "https://github.com/gonghaima/server-side-typescript-with-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
