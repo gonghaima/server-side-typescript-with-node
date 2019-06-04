@@ -45,6 +45,7 @@ export abstract class SimpleAPI {
 
   public static async list_vehicles(): Promise<any> {
     let list = await DataStore.list("data/vehicles/");
-    return list.forEach(item => console.log(item));
+    // return list.forEach(item => console.log(item));
+    return list;
   }
 }
